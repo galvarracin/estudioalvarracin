@@ -1,0 +1,369 @@
+*{  margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: none;
+}
+
+/*HEADER PRINCIPAL*/
+.header__titulo{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1rem;
+
+    display:inline-block;
+    padding-top: 1rem;
+
+}
+
+
+
+.header__titulo:hover{
+    color: rgba(19, 19, 138, 0.767);
+    font-size: 2rem;
+    filter: drop-shadow(0px 0px 10px grey)
+
+
+}
+
+/*
+MENU A LA IZQUIERDA
+
+.header__nav__menu{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-left: 60rem;
+    padding-right: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+*/
+
+
+.header__nav__menu{
+    padding-top: 1rem;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding-right: 25rem;
+    padding-left: 15rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+   
+
+.header__nav__menu--active{
+        color: black;
+        
+    }
+
+
+.header__nav__menu--active:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey);
+
+}  
+
+.quieneshover:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey);
+
+}
+
+.novedadhover:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey);
+
+}
+
+.formhover:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey);
+
+
+}
+
+.servicioshover:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey)
+
+}
+
+.iniciohover:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey);
+
+}
+
+
+/*INDEX*/
+
+
+
+.main__contenedor__img{
+    padding-top: 2rem;
+    height: 600px;
+    width: 1600px;
+}
+
+
+.main__contenedor__img__nombre{
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 200);
+}
+    
+
+
+
+/*BODY GENERAL*/
+
+
+/*
+body{
+    background-image: url(../img/wall.jpg);
+    background-size: 100%;
+    
+    }   
+*/
+
+
+/*NOVEDADES*/
+.main__calendario__afip{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size:2rem;
+    color: darkblue;
+    padding-left: 32rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    
+    
+}
+
+.main__calendario__imgafip{
+    display: flex;
+    padding-top: 1rem;
+    height: 80%;
+    padding-left: 5.5rem;
+    
+    /*
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 0rem;
+    padding-bottom: 5rem;*/
+    filter: drop-shadow(5px 5px 12px grey)
+}
+
+
+.main__calendario__arba{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size:2rem;
+    color: darkblue;
+    padding-left: 32rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    
+    
+}
+
+.main__calendario__imgarba{
+    display: flex;
+    padding-top: 1rem;
+    height: 80%;
+    padding-left: 25rem;
+    filter: drop-shadow(5px 5px 12px grey)
+}
+
+
+
+
+/*SERVICIOS*/
+
+.main__section__div__titulo{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 22rem;
+    padding-right: 25rem;
+    padding-top: 5rem;
+    font-size: 1.7rem ;
+    color: rgba(19, 19, 138, 0.767);
+}
+
+.main__section__div__texto{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 1rem;
+    padding-left: 20rem;
+    padding-right:40rem;    
+}
+
+
+.main__section__div__texto__ul__pymes{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.main__section__div_texto__ul__auditorias{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.main__section__div_texto__ul__impuestos{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 0.5rem;
+    font-size: 0.9rem;
+
+
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    grid-template-rows: repeat(4,50px);
+    padding-bottom: 5rem;
+}
+
+.servicios__impuestos{
+    padding-left: 25rem;
+    padding-top: 5rem;
+    
+    
+}
+
+.servicios__pymes{
+    padding-left: 40rem;
+    padding-top: 5rem;
+}
+
+
+.servicios__auditorias{
+    padding-left: 55rem;
+    padding-top: 5rem;
+}
+
+
+.servicios__pymes__img{
+    height: 150px;
+    width: 150px;
+
+}
+
+.servicios__impuestos :hover{
+    filter: drop-shadow(0px 0px 10px grey)
+}
+
+
+.servicios__pymes :hover{
+    filter: drop-shadow(0px 0px 10px grey)
+}
+
+.servicios__auditorias:hover{
+    filter: drop-shadow(0px 0px 10px grey)
+
+}
+
+.parrafo{
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    
+
+}
+
+
+
+.servicios__impuestos__img{
+    height: 150px;
+    width: 150px;
+
+}
+
+.servicios__auditorias__img{
+    height: 150px;
+    width: 150px;
+
+}
+
+
+/*CONTACTO*/
+
+
+.form__titulo{
+    display: flex;
+    padding-left: 45rem;
+   
+    
+}
+
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+    
+
+
+    
+}
+
+
+/*FOOTER*/
+
+.footer__contacto{
+    position: absolute;
+    bottom: 0;
+    align-self: flex-end;
+    text-align:center;
+    width: 100%;
+    height: 50px;
+   
+}
+
+
+.footer__contacto__novedades{
+    position: absolute;
+    bottom: 0;
+    padding-top: 500rem;
+    align-self: flex-end;
+    text-align:center;
+    width: 100%;
+    height: 50px;
+    color: blueviolet;
+
+   
+}
